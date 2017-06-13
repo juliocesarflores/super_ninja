@@ -9,9 +9,7 @@ package ElementosEscenario;
 import java.awt.Graphics2D;
 import java.util.ArrayList;
 
-import superGoku.Cinematica;
-import superGoku.Jugador;
-import nucleo.ManejadorPantalla;
+
 
 
 public class Escenario{
@@ -26,6 +24,7 @@ public class Escenario{
 	
 	private ArrayList<FrameEscenario> frames;
 	
+        //manejador pantalla falta implementar en nucleo principal
 	public Escenario(ManejadorPantalla pantalla){
 		xCentral = pantalla.getAnchoPantalla()/2; 
 		yCentral = pantalla.getAltoPantalla()/2;
