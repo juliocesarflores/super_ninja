@@ -1,13 +1,13 @@
 package ElementosEscenario;
 
-//librerias a utilizar
 import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 
-
+import superGoku.Criatura;
+import nucleo.ManejadorPantalla;
 
 public class Suelo{
 	
@@ -16,7 +16,7 @@ public class Suelo{
 	Color color;
 	BufferedImage imagen;
 
-	///actualizamos la pantalla 
+	
 	public Suelo(ManejadorPantalla pantalla){
 		ancho = pantalla.getAnchoPantalla();
 		alto = 50;
@@ -29,8 +29,6 @@ public class Suelo{
 	public void actualizar(long tiempoTranscurrido,ArrayList<Criatura> criaturas)throws Exception{		
 		reconociendoCriaturas(criaturas);
 	}
-        
-        ///clase criaturas falta implementar
 	
 	public void reconociendoCriaturas(ArrayList<Criatura> criaturas) throws Exception{
 		int numeroCriaturas = criaturas.size();

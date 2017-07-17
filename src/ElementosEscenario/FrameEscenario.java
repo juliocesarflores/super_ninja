@@ -3,7 +3,6 @@ package ElementosEscenario;
 import java.awt.Graphics2D;
 import java.awt.Image;
 
-///escenario elfondo o frame 
 public class FrameEscenario{
 	
 	private float x,y,ancho,alto;		
@@ -15,7 +14,6 @@ public class FrameEscenario{
 		ancho = fondo.getWidth(null);
 	}
 	
-        //va dbujar el imagen en fondo pantalla
 	public synchronized void dibujar(Graphics2D g){
 		g.drawImage(fondo,(int)x,(int)y,(int)ancho,(int)alto,null);
 	}
