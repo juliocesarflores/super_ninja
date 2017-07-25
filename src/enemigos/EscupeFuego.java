@@ -53,6 +53,8 @@ public class EscupeFuego extends Enemigo{
 		// TODO Auto-generated method stub
 		
 	}
+        
+        ///generamos comportamiento de las criaturas
 
 	@Override
 	public void generarComportamiento() throws Exception {
