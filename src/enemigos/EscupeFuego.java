@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import superGoku.Animacion;
 import superGoku.Criatura;
 
+
+///herendando la clase 
 public class EscupeFuego extends Enemigo{
 
 	public EscupeFuego(ArrayList<Animacion> animaciones) {
